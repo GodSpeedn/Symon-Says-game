@@ -56,6 +56,15 @@ document.addEventListener("keypress",function(){
         levelUP();
     }
 })
+document.addEventListener("click",function(){
+    if(started == false){
+        console.log("game strafdc");
+     
+        started = true;
+    
+        levelUP();
+    }
+})
 
 
 function checkAns(index){
