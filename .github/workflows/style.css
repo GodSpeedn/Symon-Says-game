@@ -1,0 +1,39 @@
+*{text-align: center;}
+
+.btn-container{
+
+ display: flex;
+ justify-content: center;
+
+
+}
+
+
+.one{
+    background-color: #d95980;
+    opacity: 80%;
+}
+
+.two{background-color: #f99b45; opacity: 80%;}
+
+.three{background-color: #68aac0;opacity: 80%;}
+
+.four{background-color: purple;opacity: 80%;}
+
+
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 1.5rem;
+}
+
+.red{
+    background-color: red;
+}
+
+.flash {
+    background-color: white;
+}
