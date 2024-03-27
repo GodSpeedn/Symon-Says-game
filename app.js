@@ -7,7 +7,6 @@ let h2 = document.querySelector("h2");
 
 let btns = ["one", "two","three","four"];
 
-
 let body = document.querySelector("body");
 
 function btnFlah(btn){
@@ -57,6 +56,7 @@ document.addEventListener("keypress",function(){
         levelUP();
     }
 })
+
 body.addEventListener("click",function(){
     if(started == false){
         console.log("game strafdc");
@@ -82,12 +82,13 @@ function checkAns(index){
     h2.innerText ="game over press any key to start" + " your score was " + level;
     console.log("wrong input ! Game over   ! press any key to start ");
     document.querySelector("body").style.backgroundColor = "red";
-     reset();
     setTimeout( function(){
         document.querySelector("body").style.backgroundColor = "white";
     },150);
 
     reset();
+
+   
 }
 
 
@@ -99,7 +100,7 @@ function reset(){
     userSeq =[];
     level = 0;
 
-};
+}
 
 
 
